@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace CloneProject
 {
-    public class Class1
+    public class CloneList
     {
 
         private static void Main()
         {
             Console.WriteLine(DateTime.Now.ToTraceDateTime());
-            new Class1().func2();
+            new CloneList().func2();
             //new Class1().func1();
             Console.ReadKey();
         }
