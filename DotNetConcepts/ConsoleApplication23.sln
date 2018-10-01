@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerable", "Enumerable\Enumerable.csproj", "{01BD9A68-1FFC-4E9F-844D-19C598AB5699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clone", "CloneProject\Clone.csproj", "{55BC8E3B-EDF3-49CC-8E78-72DFAF4F4EBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01BD9A68-1FFC-4E9F-844D-19C598AB5699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BD9A68-1FFC-4E9F-844D-19C598AB5699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BD9A68-1FFC-4E9F-844D-19C598AB5699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BD9A68-1FFC-4E9F-844D-19C598AB5699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55BC8E3B-EDF3-49CC-8E78-72DFAF4F4EBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55BC8E3B-EDF3-49CC-8E78-72DFAF4F4EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55BC8E3B-EDF3-49CC-8E78-72DFAF4F4EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55BC8E3B-EDF3-49CC-8E78-72DFAF4F4EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
