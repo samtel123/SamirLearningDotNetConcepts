@@ -10,6 +10,10 @@ namespace OtherSample
     {
         static void Main(string[] args)
         {
+
         }
+
+
+
     }
 }
