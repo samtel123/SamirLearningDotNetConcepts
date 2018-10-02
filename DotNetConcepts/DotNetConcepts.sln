@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumerable", "Enumerable\En
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clone", "CloneProject\Clone.csproj", "{55BC8E3B-EDF3-49CC-8E78-72DFAF4F4EBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtherSample", "OtherSample\OtherSample.csproj", "{0334CDC9-F82F-4BE4-AA54-BDC5018A5DF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{55BC8E3B-EDF3-49CC-8E78-72DFAF4F4EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55BC8E3B-EDF3-49CC-8E78-72DFAF4F4EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55BC8E3B-EDF3-49CC-8E78-72DFAF4F4EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0334CDC9-F82F-4BE4-AA54-BDC5018A5DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0334CDC9-F82F-4BE4-AA54-BDC5018A5DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0334CDC9-F82F-4BE4-AA54-BDC5018A5DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0334CDC9-F82F-4BE4-AA54-BDC5018A5DF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
