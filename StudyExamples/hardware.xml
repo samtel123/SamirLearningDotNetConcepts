@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<Hardware>  
+  <Serveillance>
+	<ServeillanceDevice category = "DVR">
+	   <SrNo>1</SrNo>
+	   <Make>Dahuva</Make>
+ 	   <Model>Dahuva Ch8</Make>
+	   <PurchaseOn>11102016</PurchaseOn>	
+	</ServeillanceDevice>
+
+       	<ServeillanceDevice category = "DVR">
+	   <SrNo>2</SrNo>
+	   <Make>Dahuva</Make>
+ 	   <Model>Dahuva Ch16</Make>
+	   <PurchaseOn>11102015</PurchaseOn>	
+	</ServeillanceDevice>
+	
+		<ServeillanceDevice category = "DVR">
+	   <SrNo>3</SrNo>
+	   <Make>Dahuva</Make>
+ 	   <Model>Dahuva Ch16</Make>
+	   <PurchaseOn>11102015</PurchaseOn>	
+	</ServeillanceDevice>
+	<ServeillanceDevice category = "IPCamera">
+		  <SrNo>4</SrNo>
+	   <Make>HikVision</Make>
+ 	   <Model>Hik6</Model>
+	   <PurchaseOn>19107015</PurchaseOn>	
+	</ServeillanceDevice>
+  </Serveillance>
+  <IOT>
+	<IOTDevice category="Bluetooth">
+		<SrNo>11</SrNo>
+		<Make>Bluevision</Make>
+		<Model>Proximity<Model>
+		<PurchaseOn>15092018</PurchaseOn>
+	</IOTDevice>
+	<IOTDevice category="Bluetooth">
+		<SrNo>15</SrNo>
+		<Make>Netflix</Make>
+		<Model>Netad</Model>
+		<PurchaseOn>22092018</PurchaseOn>
+	</IOTDevice>
+
+  </IOT>
+</Hardware>
