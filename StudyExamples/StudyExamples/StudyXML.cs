@@ -37,7 +37,7 @@ namespace StudyExamples
                    // Console.WriteLine("\n" + nodeLevel2.Value);
                 }
             }
-            Console.Read();
+            Console.Readline();
         }
 
     }
