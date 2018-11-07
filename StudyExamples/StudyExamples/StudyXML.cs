@@ -36,8 +36,7 @@ namespace StudyExamples
                     }
                    // Console.WriteLine("\n" + nodeLevel2.Value);
                 }
-            }
-            Console.WriteLine("Hello world. How are you");
+            }          
             Console.Read();
         }
 
