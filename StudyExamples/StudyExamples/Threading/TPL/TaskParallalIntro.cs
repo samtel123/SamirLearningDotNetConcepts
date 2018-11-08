@@ -10,15 +10,27 @@ namespace StudyExamples
     {
         static void Main(string[] args)
         {
+            Parallel.For(0, 10, PrintSquare);
+            Console.ReadKey();
+            
+            //using inline function
             Parallel.For(0, 10, x =>
                 {
                     Console.WriteLine("value of i = {0}", x);
                 });
             Console.ReadKey();
+           
 
             //sample code for action delegate with single argument with no return type. passing entire function pointer to method
             GetData(0, 20, x => { Console.Write("hello world"); Console.WriteLine("value of x = {0}", x); });
             Console.ReadKey();
+        }
+
+      
+
+        static void PrintSquare(int value)
+        {
+            Console.WriteLine("Square of {0} is {1}", value, value * value);
         }
 
         //passing single argument delegate to this function
@@ -29,6 +41,5 @@ namespace StudyExamples
                 mydelefun(i);
             }
         }
-
     }
 }
