@@ -16,7 +16,7 @@ namespace StudyExamples.Threading.TPL
             string path = Directory.GetCurrentDirectory();
             var alterpath = path + @"\alterpath";
             if (!Directory.Exists(alterpath)) Directory.CreateDirectory(alterpath);
-            string[] files = Directory.GetFiles(path + @"\images", "*.png");
+            string[] files = Directory.GetFiles(path + @"\images", "*.*",SearchOption.TopDirectoryOnly);
             files.ToList().ForEach(x => Console.WriteLine(x.ToString()));
             WithoutTPL(files,alterpath);
             WithTPL(files,alterpath);
