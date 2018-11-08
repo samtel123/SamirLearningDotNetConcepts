@@ -32,11 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>StudyExamples.StudyXML</StartupObject>
+    <StartupObject>StudyExamples.Threading.TPL.ImageProcess</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,6 +53,8 @@
       <DependentUpon>Resource.resx</DependentUpon>
     </Compile>
     <Compile Include="StudyXML.cs" />
+    <Compile Include="Threading\TPL\ImageProcess.cs" />
+    <Compile Include="Threading\TPL\TaskParallalIntro.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
