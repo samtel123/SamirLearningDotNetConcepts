@@ -49,15 +49,20 @@ namespace StudyExamples.Threading.TPL
 
         private static void TransformImageFiles(string file,string alterpath)
         {
-            Image imgnew = null;
+          //  Image imgnew = null;
             try
             {              
                string filename =  Path.GetFileName(file);
-                Image img = Image.FromFile(file);
-                imgnew = new Bitmap(img);
-                img.Dispose();
-                imgnew.RotateFlip(RotateFlipType.Rotate270FlipY);
-                imgnew.Save(alterpath + @"\" + filename, System.Drawing.Imaging.ImageFormat.Jpeg);
+              //image object needs to be dispose after using to implement using
+               using (Image img = Image.FromFile(file))
+               {
+                   using (Image imgnew = new Bitmap(img))
+                   {
+                       imgnew.RotateFlip(RotateFlipType.Rotate90FlipX);
+                       imgnew.Save(Path.Combine(alterpath,filename), System.Drawing.Imaging.ImageFormat.Jpeg);
+                       Console.WriteLine("Thread {0}", System.Threading.Thread.CurrentThread.ManagedThreadId);
+                   }
+               }
             }
             catch (Exception)
             {
@@ -65,7 +70,7 @@ namespace StudyExamples.Threading.TPL
             }
             finally
             {
-                imgnew.Dispose();
+             
             }
         }
     }

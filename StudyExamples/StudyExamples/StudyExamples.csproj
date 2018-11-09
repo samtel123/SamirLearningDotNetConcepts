@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>StudyExamples.Threading.TPL.ImageProcess</StartupObject>
+    <StartupObject>StudyExamples.Threading.TPL.Cancellation</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -53,6 +53,7 @@
       <DependentUpon>Resource.resx</DependentUpon>
     </Compile>
     <Compile Include="StudyXML.cs" />
+    <Compile Include="Threading\TPL\Cancellation.cs" />
     <Compile Include="Threading\TPL\ImageProcess.cs" />
     <Compile Include="Threading\TPL\TaskParallalIntro.cs" />
   </ItemGroup>
@@ -67,6 +68,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\hardware.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\image1.jpeg" />
+    <Content Include="Images\image2.jpeg" />
+    <Content Include="Images\image3.jpeg" />
+    <Content Include="Images\image4.jpeg" />
+    <Content Include="Images\images.png" />
+    <Content Include="Images\MAP-01.png" />
+    <Content Include="Images\SJH_Floor_Maps.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
